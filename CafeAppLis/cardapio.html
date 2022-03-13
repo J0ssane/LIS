@@ -1,30 +1,43 @@
 <!DOCTYPE html>
+<!-- O DOCTYPE html inicia o arquivo html para que o browser identifique e leia o documento -->
 <html>
-
+<!-- A tag html inicial do código -->
 <head>
+<!-- Elemento que contém os dados principais de uma página, por exemplo, meta e title -->
   <meta charset="UTF-8">
+  <!-- O meta em conjunto com charset UTF-8, permite ler carecre uma página -->
+  <!-- O título será exibido na aba de navegação -->
   <title>Cardápio</title>
 
   <!-- Bootstrap - CSS -->
+  <!-- O bootstrap atua no estilo atrevés do css -->
   <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
 </head>
-
+<!-- Fechamento di head -->
+<!-- O body é o corpo dá página, onde todo o contéudo será exibido na tela para o queridinho usuário -->
 <body>
   <header>
+   <!-- Header é o cabeçalho dá página -->
     <!-- Toolbar -->
+    <!-- Elemento de navegação por meio de links que ligarão um determinado plano de fundo a um botão ou a página inteira -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <!-- Div é o um container que será agrupado todo conteúdo por meio de classes -->
       <div class="container-fluid">
+        <!-- Tag de  de hiperlink para o menu principal -->
         <a class="navbar-brand" href="#">
           Coffee
+          <!-- A tag small é de escrita pequena, tornando a palavra Arábica nota lateral -->
           <small>Arábica</small>
         </a>
-
+        <!-- fechamento do hiperlink -->
+        <!-- Botões visiveis na tela para que o usuário possa tocar -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-
+ 
         <div class="collapse navbar-collapse" id="navbarNav">
+          <!-- Metodo do menu sendo uilizado por listas -->
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link" href="./index.html">Home</a>
